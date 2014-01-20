@@ -1,0 +1,65 @@
+/* CSS Document */
+
+/* 
+
+selector {
+    property: value;
+    property: value;
+    property: value
+}
+
+Each selector is paired with and styles an element. For example:
+html {} is paired with and styles the <html>
+
+*/
+
+html {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+body {
+    background-color: #CCC;
+}
+
+H1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 3rem; /* 1 rem = 16px */;
+    font-weight: normal
+}
+
+p,
+li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+H1 + p {
+    font-size: 1.5rem;
+    line-height: 1.75rem
+}
+
+p strong {
+    font-weight: bold;
+    color: #39F
+}
+
+em {
+    font-style: italic;
+}
+
+hr {
+    border: solid 4px #f00;
+}
+
+ul,
+ol {
+    background-color: #FFF;
+}
+
+ol li:first-child {
+    background-color: #000;
+}
+
+li {
+ color: #F00;
+}
